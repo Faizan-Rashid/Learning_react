@@ -5,12 +5,12 @@ import viteLogo from "./assets/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return 
-  <div className="container">
-    <div className="home"></div>
-  </div>
+  
+  return (
+    <div className="container">
+      <div className="home"></div>
+    </div>
+  );
 }
 
 export default App;
